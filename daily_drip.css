@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #663300;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+
+  section {
+    padding: 1rem ;
+
+  }
+
+.specials{
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+  }
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    animation: fadeInOut 5s ease-in-out infinite;
+  }
+
+  .card-content {
+    padding: 1rem;
+  }
+
+  .card-content h3 {
+    margin-top: 0;
+  }
+
+  .card-content button {
+    background-color: #663300;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+ 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    /* color: #D2B48C; */
+    background-color: #D2B48C;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+
+  #contact_us{
+  padding: 1rem;
+ 
+  }
+
+  footer {
+    background-color:#663300;
+    color: #fff;
+    text-align: center; 
+    padding: 1rem 0;
+    position: relative;
+    bottom: auto;
+    width: 100%;
+  } 
